@@ -6,7 +6,7 @@ require 'classes/classes.php';
 if(isset($_SESSION['logado'])) {
     $usuarios = new Usuarios($pdo);
     $usuarios->setUsuario($_SESSION['logado']);
-    header('Location: ../cali');
+    header('Location: ./');
 } 
 ?>
 <!DOCTYPE html>

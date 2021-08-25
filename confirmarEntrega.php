@@ -9,8 +9,8 @@ if(isset($_GET['passport'])) {
     $_SESSION['farmEntregue'] = $passport;
     /* print_r($sql);
     var_dump($sql); */
-    header("location: ../cali");
+    header("location: ./");
 } else {
-    header("location: ../cali"); 
+    header("location: ./"); 
 }
 ?>

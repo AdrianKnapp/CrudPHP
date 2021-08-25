@@ -9,9 +9,9 @@ if(isset($_GET['passport'])) {
     $_SESSION['farmCancelado'] = $passport;
     /* print_r($sql);
     var_dump($sql); */
-    header("location: ../cali");
+    header("location: ./");
 } else {
     echo 'a';
-    header("location: ../cali"); 
+    header("location: ./"); 
 }
 ?>

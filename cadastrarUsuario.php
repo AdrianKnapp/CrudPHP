@@ -25,7 +25,7 @@ if(
 
   if($verificarSeExisteEmail->rowCount() > 0){
     $_SESSION['emailExistente'] = "";
-    header('Location: cali.php');
+    header('Location: ./');
     exit;
   }
   

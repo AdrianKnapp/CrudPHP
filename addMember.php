@@ -5,7 +5,7 @@ if(isset($_POST['passport']) && !empty($_POST['passport'])) {
     echo 'existe';
     $passport = addslashes($_POST['passport']);
     if($passport == 0 ){
-        header("location: ../cali"); 
+        header("location: ./"); 
     }
     $name = addslashes($_POST['name']);
     $user = addslashes($_POST['user']);
@@ -17,7 +17,7 @@ if(isset($_POST['passport']) && !empty($_POST['passport'])) {
     var_dump($sql);
     if($sql->rowCount() > 0) {
     $_SESSION['userExistente'] = '';
-    header("location: ../cali"); 
+    header("location: ./"); 
     } else {
         $sql = "
             INSERT INTO usuarios
@@ -39,10 +39,10 @@ if(isset($_POST['passport']) && !empty($_POST['passport'])) {
             var_dump($sql);
             $sql = $pdo->query($sql);
             $_SESSION['membroAdicionado'] = "";
-            header("location: ../cali"); 
+            header("location: ./"); 
     }
 } else {
     $_SESSION['dadosInvalidos'] = '';
-    header("location: ../cali"); 
+    header("location: ./"); 
 }
 ?>

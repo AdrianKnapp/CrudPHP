@@ -14,12 +14,12 @@ if(isset($_POST['passport'])) {
         $_SESSION['membroRemovido'] = '';
         /* print_r($sql);
         var_dump($sql); */
-        header("location: ../cali");
+        header("location: ./");
         } else {
             $_SESSION['PassaporteInexistente'] = "";
-            header("location: ../cali"); 
+            header("location: ./"); 
         }
 } else {
-    header("location: ../cali"); 
+    header("location: ./"); 
 }
 ?>

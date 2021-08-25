@@ -16,12 +16,12 @@ if(isset($_POST['user']) && !empty($_POST['user'])) {
     } else {
       header("Location: gerenciar"); 
     } */
-    header("Location: ../cali"); 
+    header("Location: ./"); 
     exit;
 
   } else {
     $_SESSION['alertMsg'] = "";
-    header("Location: ../cali");
+    header("Location: ./");
       exit;
   }
 }

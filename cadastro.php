@@ -43,7 +43,7 @@ require 'classes/classes.php';
                 <input class="form-control" name="user" type="text" placeholder="Vulgo" required>
                 <input class="form-control" type="password" name="pass" id="" placeholder="Senha" required>
                 <div class="text-below-inputs d-flex flex-column justify-content-between align-items-center">
-                    <a href="login.php">
+                    <a href="login">
                         Já tenho uma conta
                     </a>
                 </div>
