@@ -1,0 +1,77 @@
+body{
+    font-family: 'Poppins', sans-serif !important;
+    color: #393939 !important;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+.principal{
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.table-box{
+    width: 100%;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    border-radius: 5px;
+}
+.paginate_button, .dataTables_wrapper  {
+    background-color: white !important;
+}
+#accordion{
+    margin-bottom: 30px;
+}
+.form-control-sm {
+    min-height: calc(1.5em + .5rem + 2px);
+    font-size: .875rem;
+    width: 60px !important;
+    border-radius: .2rem;
+}
+.form-control{
+    width: 60px !important;
+}
+input[type=search] {
+    width: 150px !important;
+}
+.form-add-member input{
+    margin: 10px 0;
+}
+.modal-footer{
+    padding: 5px 10px;
+}
+.alert {
+    margin-bottom: 40px !important;
+}
+
+footer{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c1c1c;
+    color: rgb(216, 216, 216);
+    bottom: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    margin-top: 100px;
+    position: fixed;
+    z-index: 999;
+    user-select: none;
+}
+
+
+body::-webkit-scrollbar {
+    width: 10px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #1c1c1c;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 255, 255);    /* color of the scroll thumb */
+    border-radius: 0px; 
+    border-left: 1px solid #1c1c1c;      /* roundness of the scroll thumb */  /* creates padding around scroll thumb */
+  }

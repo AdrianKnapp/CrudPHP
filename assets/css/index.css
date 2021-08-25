@@ -1,0 +1,81 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    height: 100vh;
+}
+.table-box{
+    width: 70%;
+    height: auto;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+.custom-select{
+    padding: .375rem .75rem;
+    border-radius: 0;
+    border: 1px solid #ced4da;
+    outline: 0;
+    color: rgb(92, 92, 92);
+}
+.custom-select:hover{
+    background-color: white;
+    outline: white;
+}
+.input-group {
+    margin-bottom: 0 !important;
+}
+.input-group{
+    margin-right: 10px;
+    width: min-content;
+}
+.passport{
+    width: 25%;
+    margin-right: 10px;
+}
+.member-pass {
+    margin-left: 10px;
+    font-weight: 500;
+}
+.member-list{
+    border-top: 1px solid #ced4da;
+    padding: 10px 20px;
+}
+.config img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+}
+.v{
+    width: 20px;
+}
+.btn-entregue{
+    color: #198754;
+    border: 1px solid #198754;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    background-color: transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    -webkit-user-select: none;  
+    -moz-user-select: none;     
+    -ms-user-select: none;      
+    user-select: none;  
+}
+.entregue{
+    background-color: #e2f7e7;
+}
+.modal-footer{
+    padding: 5px 10px;
+}
+@media (max-width: 990px){
+    .passport {
+        width: 30%;
+        margin-right: 10px;
+    }
+}
